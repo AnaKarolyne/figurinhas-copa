@@ -11,12 +11,12 @@ const usuario = sessionStorage.getItem("usuario-validado");
   }, []);
 */
 
-export default function Nacionais() {
+export default function Usa() {
 
   return (
     <div>
         <h2>
-            Nacionais
+            Usa
         </h2>
     </div>
   ); 

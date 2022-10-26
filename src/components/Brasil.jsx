@@ -8,14 +8,16 @@ const usuario = sessionStorage.getItem("usuario-validado");
     if (usuario == null) {
       window.location = "/";
     }
-  }, []); */
+  }, []);
+*/
 
-export default function Internacionais() {
+export default function Brasil() {
+
   return (
     <div>
-        <h2> 
-            Internacionais
+        <h2>
+            Brasil
         </h2>
     </div>
-  );
+  ); 
 }
