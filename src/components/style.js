@@ -108,10 +108,14 @@ export const DivGeral = styled.div`
   justify-content: center;
   align-items: calc(45);
   box-sizing: border-box;
-  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 19em;
+  margin-right: 19em;
   padding: auto;
   height: auto;
   background-color: #87082C;
+  border-radius: 16px 16px 16px 16px;
   font-family: Roboto, Arial, sans-serif;
 
 h1 {
@@ -127,12 +131,25 @@ export const DivCabeca = styled.div`
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 30px 30px ;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: center;
+
+div{
+  display: flex;
+  justify-content: center;
+
+  span{
+    margin-top: 0.5em;
+  }
+}
 `
 
 export const DivRodape = styled.div`
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #ccc;
   padding: 10px 20px ;
+  border-radius: 0px 0px 15px 15px;
 
   p {
   text-align: center;

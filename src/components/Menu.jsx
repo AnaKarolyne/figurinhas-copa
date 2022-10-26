@@ -13,12 +13,17 @@ export default function Menu() {
   return (
     <DivCabeca>
     <header>
-      <span> FIAP NA COPA </span> | {" "}
+      
+      <div>
+        <Link to="/home">Home</Link> | {" "} 
+        <Link to="/">Login</Link> | {" "} 
+        <Link to="/nacionais">Nacionais</Link> |{" "}
+        <Link to="/internacionais">Internacionais</Link> |
+      </div>
 
-      <Link to="/home">Home</Link> | {" "} 
-      <Link to="/">Login</Link> | {" "} 
-      <Link to="/nacionais">Nacionais</Link> |{" "}
-      <Link to="/internacionais">Internacionais</Link> |
+      <div>
+        <span> FIAP NA COPA </span>
+      </div>
 
       <span style={{ display: usuario != null ? "inline" : "none" }}>[{usuario}]</span>
 
