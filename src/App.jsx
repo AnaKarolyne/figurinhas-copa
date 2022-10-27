@@ -8,12 +8,14 @@ import Rodape from "./components/Rodape";
 
 export default function App() {
   return (
-    <DivGeral>
-    <div>
-      <Menu/>
-      <MainRoutes/>
-      <Rodape/>
-    </div>
-    </DivGeral>
+    <>
+      <DivGeral>
+        <Menu/>
+          <div>
+            <MainRoutes/>
+          </div>
+        <Rodape/>
+      </DivGeral>
+    </>
   );
 }

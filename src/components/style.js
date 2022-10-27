@@ -2,9 +2,15 @@ import styled from 'styled-components'
 
 export const DivLogin = styled.div`
 
+position: absolute;
 box-sizing: border-box;
 margin: auto;
-padding: auto;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #4C0118;
+width: 100%;
+height: 93.5%;
 
 section {
   display: flex;
@@ -107,15 +113,11 @@ export const DivGeral = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: calc(45);
-  box-sizing: border-box;
   margin-top: 2em;
   margin-bottom: 2em;
-  margin-left: 19em;
-  margin-right: 19em;
-  padding: auto;
-  height: auto;
-  background-color: #87082C;
-  border-radius: 16px 16px 16px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2em;
   font-family: Roboto, Arial, sans-serif;
 
 h1 {
@@ -127,7 +129,7 @@ h1 {
 }
 `
 
-export const DivCabeca = styled.div`
+export const DivCabecaLogin = styled.div`
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 30px 30px ;
@@ -145,7 +147,27 @@ div{
 }
 `
 
-export const DivRodape = styled.div`
+export const DivCabeca = styled.div`
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  background-color: #f1f1f1;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+
+div{
+  display: flex;
+  justify-content: center;
+
+  span{
+    margin-top: 0.5em;
+  }
+}
+`
+
+export const DivRodapeLogin = styled.div`
   overflow: hidden;
   background-color: #ccc;
   padding: 10px 20px ;
@@ -157,4 +179,44 @@ export const DivRodape = styled.div`
   letter-spacing: 1px;
   color: #87082C;
 }
+`
+
+export const DivRodape = styled.div`
+  overflow: hidden;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 8%;
+  left: 0;
+
+  p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #87082C;
+}
+`
+
+export const DivContainer = styled.div`
+
+  position: absolute;
+  left: 0;
+  width: 97.5%;
+  min-height: 85vh;
+  padding: 19px;
+  margin-top: -0.2em;
+  background-color: #87082C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  div{
+    display: flex;
+    justify-content: center;
+  }
+
+  img{
+    align-self: center;
+  }
 `
