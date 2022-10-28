@@ -15,15 +15,13 @@ import Jogador9 from "../assets/brasil/jogador9.jpg"
 
 const usuario = sessionStorage.getItem("usuario-validado");
 
-/*
+export default function Brasil() {
+
   useEffect(() => {
     if (usuario == null) {
       window.location = "/";
     }
   }, []);
-*/
-
-export default function Brasil() {
 
   return (
     <DivContainer>

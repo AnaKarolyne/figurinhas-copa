@@ -23,7 +23,7 @@ export default function Login() {
     };
 
     const response = await fetch(
-      "http://localhost:8080/ControleAcesso/rest/login/",
+      "http://localhost:8080/LoginCopa/rest/login/",
       requestOptions
     );
 

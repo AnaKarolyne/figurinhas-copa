@@ -3,15 +3,6 @@ import { useEffect } from "react";
 import ImgR from '../assets/extras/R.png';
 const usuario = sessionStorage.getItem("usuario-validado");
 
-/*
-RECOLOCAR DENTRO DO EXPORT DEPOIS E ANTES DO RETURN:
-
-useEffect(() => {
-  if (usuario == null) {
-    window.location = "/";
-  }
-}, []);*/
-
 export default function Home() {
   return (
     <div>

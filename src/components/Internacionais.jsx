@@ -41,15 +41,13 @@ import CosJogador9 from "../assets/costa_rica/jogador9.jpg"
 
 const usuario = sessionStorage.getItem("usuario-validado");
 
-/*
+export default function Internacionais() {
+
   useEffect(() => {
     if (usuario == null) {
       window.location = "/";
     }
   }, []);
-*/
-
-export default function Internacionais() {
 
   return (
     <DivContainer>

@@ -220,3 +220,6 @@ export const DivContainer = styled.div`
     align-self: center;
   }
 `
+
+export const DivLogout = styled.div`
+`

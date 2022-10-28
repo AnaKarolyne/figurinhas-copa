@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { DivCabeca } from "./style";
+import { DivCabeca, DivLogout } from "./style";
 
 export default function Menu() {
   const logout = () => {
@@ -19,17 +19,14 @@ export default function Menu() {
         <Link to="/">Login</Link> | {" "} 
         <Link to="/nacionais">Nacionais</Link> |{" "}
         <Link to="/internacionais">Internacionais</Link> |
+        <button style={{ display: usuario != null ? "inline" : "none" }} onClick={logout} >
+          Logout
+        </button>
       </div>
 
       <div>
         <span> FIAP NA COPA </span>
       </div>
-
-      <span style={{ display: usuario != null ? "inline" : "none" }}>[{usuario}]</span>
-
-      <button style={{ display: usuario != null ? "inline" : "none" }} onClick={logout} >
-        Logout
-      </button>
 
     </header>
     </DivCabeca>
