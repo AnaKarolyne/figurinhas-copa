@@ -8,7 +8,7 @@ margin: auto;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: #4C0118;
+background-color: #87082C;
 width: 100%;
 height: 93.5%;
 
